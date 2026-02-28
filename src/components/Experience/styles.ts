@@ -8,7 +8,7 @@ export const Container = styled.section`
     font-size: 4rem;
     margin-bottom: 3rem;
   }
-  .projects {
+  .experiences {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -17,7 +17,7 @@ export const Container = styled.section`
     overflow: visible;
     margin: 0 2rem; /* Added margin to prevent edge content from being cut */
 
-    .project {
+    .experience {
       padding: 2rem 1.8rem;
       background-color: #2b2b2b;
       border-radius: 1.2rem;
@@ -37,32 +37,44 @@ export const Container = styled.section`
 
       header {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
         color: var(--blue);
-        margin-bottom: 3.6rem;
-        .project-links {
-          display: flex;
-          align-items: center;
-          gap: 1rem;
-        }
-        a > img {
-          width: 5rem;
-        }
+        margin-bottom: 2rem;
+        
         svg {
-          min-width: 50px; /* Added to prevent SVG from shrinking */
+          min-width: 50px;
+        }
+
+        .duration {
+          background-color: rgba(255, 255, 255, 0.1);
+          padding: 0.5rem 1rem;
+          border-radius: 20px;
+          font-size: 1.2rem;
+          color: #fff;
+          white-space: nowrap;
         }
       }
 
-      h3 {
-        margin-bottom: 2rem;
-        word-wrap: break-word; /* Added to handle long titles */
+      .body {
+        h3 {
+          margin-bottom: 0.5rem;
+          word-wrap: break-word;
+          font-size: 2.2rem;
+        }
+        
+        .company {
+          color: var(--green);
+          margin-bottom: 2rem;
+          font-weight: 500;
+          font-size: 1.6rem;
+        }
       }
 
       p {
         letter-spacing: 0.12rem;
         margin-bottom: 2rem;
-        word-wrap: break-word; /* Fixed syntax and added to handle long text */
+        word-wrap: break-word;
 
         a {
           color: #ffff;
@@ -94,16 +106,16 @@ export const Container = styled.section`
   }
 
   @media (max-width: 960px) {
-    .projects {
+    .experiences {
       grid-template-columns: 1fr 1fr;
-      margin: 0 1rem; /* Adjusted margin for tablet view */
+      margin: 0 1rem;
     }
   }
 
   @media (max-width: 740px) {
-    .projects {
+    .experiences {
       grid-template-columns: 1fr;
-      margin: 0 1rem; /* Adjusted margin for mobile view */
+      margin: 0 1rem;
     }
   }
 `;

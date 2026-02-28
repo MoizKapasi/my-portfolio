@@ -9,7 +9,7 @@ export function Project() {
     <Container id="project">
       <h2>My Projects</h2>
       <div className="projects">
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="fadeInUp">
           <div className="project">
             <header>
               <svg
@@ -32,13 +32,9 @@ export function Project() {
               <h3>Online services and resources platform</h3>
               <p>
                 {" "}
-                Developed and deployed an online platform tailored for users
-                residing outside India, offering a range of services and
-                resources. Led the design and implementation of a responsive and
-                user-friendly frontend using HTML, CSS, and React.js. Integrated
-                RESTful APIs to facilitate seamless data interaction and dynamic
-                content delivery. Ensured cross-browser compatibility and
-                optimized the platform for performance and usability.{" "}
+                Developed and deployed online platform for users residing outside India,
+                serving 2000+ monthly users. Led responsive frontend design using React.js with integrated RESTful APIs, achieving
+                98% mobile responsiveness score on Google PageSpeed Insights.{" "}
               </p>
             </div>
             <footer>
@@ -52,7 +48,7 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="fadeInUp">
           <div className="project">
             <header>
               <svg
@@ -71,17 +67,11 @@ export function Project() {
               </svg>
             </header>
             <div className="body">
-              <h3>Driver Management Application</h3>
+              <h3>Driver Management System</h3>
               <p>
-                Developed a robust backend API for a driver management
-                application, enabling corporate clients to manage drivers
-                effectively. Facilitated driver access to a route-searching
-                mobile application by implementing efficient API endpoints.
-                Leveraged TypeScript, Node.js, TypeORM, and PostgreSQL to design
-                and manage scalable backend infrastructure. Contributed to the
-                frontend design and development using Angular, ensuring a
-                cohesive and user-friendly experience.Collaborated with
-                cross-functional teams.
+                Developed robust backend API for corporate driver management system
+                serving 200+ drivers using TypeScript, Node.js, TypeORM, and PostgreSQL. Contributed to Angular frontend
+                design.Integrated stripe for payment processing. And stripe webhooks for payment processing.
               </p>
             </div>
             <footer>
@@ -95,7 +85,7 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="fadeInUp">
           <div className="project">
             <header>
               <svg
@@ -116,13 +106,9 @@ export function Project() {
             <div className="body">
               <h3>Attorney Journal Platform</h3>
               <p>
-                Designed and developed the frontend for a platform enabling
-                users to access, search, and download case documentation.
-                Implemented advanced search capabilities to locate specific
-                document sections efficiently. Enhanced user experience by
-                ensuring intuitive navigation and a seamless interface design.
-                Focused on optimizing performance and usability to handle large
-                datasets effectively.
+                Designed frontend platform for accessing 50,000+ legal case documents with advanced
+                search capabilities. Implemented efficient search algorithms achieving 90% faster document retrieval and optimized
+                performance for large datasets with pagination.
               </p>
             </div>
             <footer>
@@ -136,7 +122,7 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="fadeInUp">
           <div className="project">
             <header>
               <svg
@@ -157,15 +143,9 @@ export function Project() {
             <div className="body">
               <h3>Land Plotting and Mapping Application</h3>
               <p>
-                Designed and implemented a web application for visualizing land
-                parcels on interactive maps using ArcGIS Online. Integrated
-                ArcGIS Online REST API to fetch, manage, and display geospatial
-                data efficiently. Developed backend services in Node.js to
-                handle geospatial data and interact with ArcGIS feature layers.
-                Built a responsive frontend using React.js, enabling users to
-                visualize and interact with land parcel data on maps. Optimized
-                spatial data rendering for enhanced performance and user
-                experience.
+                Designed web application for visualizing 10,000+ land parcels using
+                ArcGIS Online REST API. Built Node.js backend services for geospatial data management and responsive React.js
+                frontend with optimized spatial data rendering.
               </p>
             </div>
             <footer>
@@ -181,7 +161,7 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="fadeInUp">
           <div className="project">
             <header>
               <svg
@@ -200,23 +180,27 @@ export function Project() {
               </svg>
             </header>
             <div className="body">
-              <h3>Demo Resume Website</h3>
+              <h3>Smart Water Filter (IoT Based)</h3>
               <p>
-                Developed an website using html and css to showcase my
-                resume.This project was created by me while learning basics of
-                html and css.In which i learned about img br tag header tag etc.
+                Engineered comprehensive backend system for IoT-enabled water filtration
+                devices with real-time monitoring capabilities. Developed cross-platform REST APIs supporting 3000+ Android/iOS
+                users using Node.js, Express.js, and PostgreSQL. Built admin dashboard with React.js and implemented OAuth
+                authentication with Google/Apple Sign-In, improving security by 60%.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Html</li>
-                <li>css</li>
+                <li>NodeJs</li>
+                <li>ExpressJs</li>
+                <li>PostgreSQL</li>
+                <li>ReactJs</li>
+                <li>OAuth</li>
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="fadeInUp">
           <div className="project">
             <header>
               <svg
@@ -235,24 +219,108 @@ export function Project() {
               </svg>
             </header>
             <div className="body">
-              <h3>Demo Responsive Blog</h3>
+              <h3>Stock Analysis Platform.</h3>
               <p>
-                Developed an website using html and css to showcase my
-                resume.This project was created by me while learning basics of
-                html and css.In which i learned about img br tag header tag etc.
-                And learning about resposive design using media queires.
+                Developed web application for real-time stock market analysis using React.js, Node.js,
+                and Polygon.io API, processing 100,000+ data points daily. Implemented Socket.io for real-time data streaming with
+                sub-100ms latency and dynamic visualization using Recharts library.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Html</li>
-                <li>css</li>
+                <li>ReactJs</li>
+                <li>NodeJs</li>
+                <li>Polygon.io</li>
+                <li>Socket.io</li>
+                <li>Recharts</li>
+                <li>Elastic Search</li>
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
 
-        {/* <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="fadeInUp">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </header>
+            <div className="body">
+              <h3>Solar Panel Monitoring System</h3>
+              <p>
+                Developed robust backend infrastructure for mobile
+                application serving 5000+ renewable energy customers using Node.js, Express.js, and PostgreSQL. Built REST APIs
+                for real-time solar site performance monitoring with 99.9% uptime and automated weekly/monthly report generation,
+                reducing manual effort by 80%. Integrated Zoho One and FSM for streamlined service request management.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>NodeJs</li>
+                <li>ExpressJs</li>
+                <li>Zoho API integration</li>
+                <li>Redis</li>
+                <li>BullMQ</li>
+                <li>RBAC</li>
+                <li>Notification System</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="fadeInUp">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b "
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </header>
+            <div className="body">
+              <h3>Import Export Company Website.</h3>
+              <p>
+                Built and deployed modern static website for import-export business using
+                Next.js and Vercel. Developed responsive frontend showcasing company services, product catalogs, and contact
+                information with SEO optimization. Achieved 95+ Google Lighthouse performance score and implemented serverside
+                rendering for faster page loads and improved search engine visibility.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>ReactJs</li>
+                <li>NodeJs</li>
+                <li>Polygon.io</li>
+                <li>Socket.io</li>
+                <li>Recharts</li>
+                <li>Elastic Search</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        {/* <ScrollAnimation animateIn="fadeInUp">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -277,7 +345,7 @@ export function Project() {
           </div>
         </ScrollAnimation> */}
 
-        {/* <ScrollAnimation animateIn="flipInX">
+        {/* <ScrollAnimation animateIn="fadeInUp">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -301,7 +369,7 @@ export function Project() {
           </div>
         </ScrollAnimation> */}
 
-        {/* <ScrollAnimation animateIn="flipInX">
+        {/* <ScrollAnimation animateIn="fadeInUp">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -326,7 +394,7 @@ export function Project() {
         </ScrollAnimation> */}
 
         {/* 
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="fadeInUp">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -350,7 +418,7 @@ export function Project() {
           </div>
         </ScrollAnimation> */}
 
-        {/* <ScrollAnimation animateIn="flipInX">
+        {/* <ScrollAnimation animateIn="fadeInUp">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -374,7 +442,7 @@ export function Project() {
           </div>
         </ScrollAnimation> */}
 
-        {/* <ScrollAnimation animateIn="flipInX">
+        {/* <ScrollAnimation animateIn="fadeInUp">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>

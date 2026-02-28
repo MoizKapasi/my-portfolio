@@ -127,6 +127,11 @@ export function About() {
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={jsIcon} alt="JavaScript" />
+            </ScrollAnimation>
+          </div>
         </div>
       </div>
       <div className="about-image">
