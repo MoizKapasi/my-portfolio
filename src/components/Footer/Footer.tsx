@@ -17,7 +17,7 @@ export function Footer() {
           <img src={linkedin} alt="Linkedin" />
         </a>
         <a
-          href="https://github.com/MoizKapasi"
+          href="https://github.com/moizkapasi28"
           target="_blank"
           rel="noreferrer"
         >
